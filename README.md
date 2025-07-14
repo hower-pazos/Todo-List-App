@@ -21,7 +21,7 @@ A simple and intuitive todo list application built with **React**. This app allo
 
 ### Todo App Interface
 
-![Todo App Interface](todo-list\todo-list\public\screenshots\todo-list-user-interface.png)
+![Todo App Interface](public/screenshots/todo-list-user-interface.png)
 _Main view of the Todo app showing the task list, filter tabs, and input area._
 
 ---
@@ -39,7 +39,7 @@ _Main view of the Todo app showing the task list, filter tabs, and input area._
   - `handleEditTodo()`: updates task content
   - `handleDeleteTodo()`: removes tasks from the list
   - `handleSaveData()`: persists data to localStorage
-- **Local Storage Integration:** Automatically saves and loads tasks on app initialization
+- **Local Storage Integration:** Automatically saves and loads tasks on app initialisation
 
 ### `Header.jsx`
 
@@ -56,7 +56,7 @@ _Main view of the Todo app showing the task list, filter tabs, and input area._
 
 ### `TodoCard.jsx`
 
-- **Dual Mode Display:**llllll
+- **Dual Mode Display:**
   - **View Mode**: Shows task text with action buttons (Edit, Done, Delete)
   - **Edit Mode**: Inline text input with Save/Cancel options
 - **State Management:**
@@ -83,7 +83,7 @@ _Main view of the Todo app showing the task list, filter tabs, and input area._
 
 ## 🎓 How It Works
 
-1. **App Initialization:**
+1. **App Initialisation:**
 
    - Loads with a welcome message todo marked as complete
    - Checks localStorage for existing todos and loads them
@@ -131,25 +131,27 @@ _Main view of the Todo app showing the task list, filter tabs, and input area._
 - Node.js (>=14)
 - npm or yarn package manager
 
-### Installation
+## Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/hower-pazos/Todo-List-App
+cd todo-list-app
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the development server
+```bash
+npm run dev
+```
+
+## File Structure
 
 ```bash
-# Clone the repository
-git clone <repository-url>
-cd todo-list-app
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-# or
-npm start
-```
-
-### File Structure
-
-```
 src/
 ├── App.jsx
 ├── components/
@@ -161,8 +163,6 @@ src/
 └── styles/
     └── index.css
 ```
-
----
 
 ## 🔧 Key Features Explained
 

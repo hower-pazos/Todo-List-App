@@ -2,6 +2,7 @@
 
 A simple and intuitive todo list application built with **React**. This app allows users to manage their daily tasks with features like adding, editing, completing, and deleting todos. The application includes tab-based filtering and local storage persistence to maintain your tasks across browser sessions.
 
+🌐 **Live Demo**: [Todo List React App](https://todo-list-react-app-hp.netlify.app/)
 ---
 
 ## 🚀 Features

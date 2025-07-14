@@ -136,7 +136,7 @@ _Main view of the Todo app showing the task list, filter tabs, and input area._
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/hower-pazos/Todo-List-App
+git clone https://github.com/hower-pazos/Todo-List-App.git
 cd todo-list-app
 ```
 
